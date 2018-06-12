@@ -1,13 +1,13 @@
 <script>
 export default {
-  name: 'pp-page-preview',
+  name: 'biz-page-preview',
   render: function (h) {
-    return h('el-container', {
-      class: ['root-container']
+    return h('biz-container', {
+      class: ['root-container', 'sss']
     }, this.renderEle(h, this.pageData))
   },
-  mounted () {
-    console.log('pp-preview 加载完成！')
+  mounted() {
+    console.log('pp-preview 加载完成！！！！！')
   },
   props: {
     pageData: {

@@ -1,0 +1,25 @@
+<template>
+  <main class="biz-main">
+    <slot></slot>
+  </main>
+</template>
+
+<script>
+  export default {
+    name: 'biz-main',
+  }
+</script>
+
+<style scoped>
+  .biz-main {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+    overflow: auto;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 20px
+  }
+</style>

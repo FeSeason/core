@@ -40,8 +40,9 @@ export default {
     }
   },
   methods: {
-    jump (item) {
+    jump(item) {
       const path = item.route.path
+
       if (path && path.includes('http://')) {
         window.open(path)
       } else {

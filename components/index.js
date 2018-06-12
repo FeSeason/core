@@ -1,19 +1,19 @@
-import PpPage from './src/PpPage'
-import PpPagePreview from './src/PpPagePreview'
-import Table from './src/Table'
-import Menu from './src/Menu'
-import SideMenu from './src/SideMenu'
-import BizButton from './src/BizButton'
-import YamSearch from './src/YamSearch'
-// ** import **
+import Page from './src/Page'
+import Search from './src/Search'
+import Button from './src/Button'
+import Container from './src/Container'
+import Header from './src/Header'
+import Aside from './src/Aside'
+import Main from './src/Main'
+import Footer from './src/Footer'
 
 export default [
-  PpPage,
-  PpPagePreview,
-  Table,
-  Menu,
-  SideMenu,
-  BizButton,
-  YamSearch,
-  // ** export **
+  Page,
+  Search,
+  Button,
+  Container,
+  Header,
+  Aside,
+  Main,
+  Footer
 ]

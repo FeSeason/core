@@ -1,8 +1,8 @@
 <script>
 export default {
-  name: 'pp-page',
+  name: 'biz-page',
   render: function (h) {
-    return h('el-container', {
+    return h('biz-container', {
       class: ['root-container']
     }, this.renderEle(h, this.pageData))
   },

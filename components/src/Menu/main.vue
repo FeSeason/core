@@ -42,7 +42,7 @@
 <script>
 export default {
   name: 'pp-menu',
-  data () {
+  data() {
     return {
       isCollapse: true
     }

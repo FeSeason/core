@@ -13,16 +13,16 @@ export default {
   name: 'ss-search',
   des: '搜索框',
   props: {
-    'placeholder': {
+    placeholder: {
       type: String
     },
-    'clearAS': {
+    clearAS: {
       type: Boolean,
       default: false
     }
   },
   methods: {
-    handleSearch (keyword) {
+    handleSearch(keyword) {
       alert(`搜索：${keyword}`)
     }
   },
